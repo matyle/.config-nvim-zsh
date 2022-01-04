@@ -1,0 +1,90 @@
+[
+  {
+    "command": "focusSearch",
+    "accelerator": "Ctrl+Cmd+F"
+  },
+  {
+    "command": "focusElementSideBar",
+    "accelerator": "Ctrl+Cmd+S"
+  },
+  {
+    "command": "focusElementNoteList",
+    "accelerator": "Ctrl+Cmd+L"
+  },
+  {
+    "command": "focusElementNoteTitle",
+    "accelerator": "Ctrl+Cmd+N"
+  },
+  {
+    "command": "focusElementNoteBody",
+    "accelerator": "Ctrl+Cmd+B"
+  },
+  {
+    "command": "exportPdf",
+    "accelerator": "Ctrl+P"
+  },
+  {
+    "command": "historyBackward",
+    "accelerator": "Ctrl+Cmd+["
+  },
+  {
+    "command": "historyForward",
+    "accelerator": "Ctrl+Cmd+]"
+  },
+  {
+    "command": "editor.richMarkdown.clickAtCursor",
+    "accelerator": "Cmd+Enter"
+  },
+  {
+    "command": "richMarkdown.inlineImages",
+    "accelerator": "Ctrl+Cmd+I"
+  },
+  {
+    "command": "toggleOutline",
+    "accelerator": "Ctrl+Cmd+T"
+  },
+  {
+    "command": "CopyAllTags",
+    "accelerator": null
+  },
+  {
+    "command": "TaggingDialog",
+    "accelerator": null
+  },
+  {
+    "command": "resolveConflictsCommand",
+    "accelerator": null
+  },
+  {
+    "command": "createNoteFromTemplate",
+    "accelerator": "Option+Ctrl+Shift+N"
+  },
+  {
+    "command": "createNoteFromDefaultTemplate",
+    "accelerator": "Option+Shift+N"
+  },
+  {
+    "command": "createTodoFromTemplate",
+    "accelerator": "Option+Ctrl+Shift+T"
+  },
+  {
+    "command": "createTodoFromDefaultTemplate",
+    "accelerator": "Option+Shift+T"
+  },
+  {
+    "command": "insertTemplate",
+    "accelerator": "Option+Ctrl+I"
+  },
+  {
+    "command": "copyFolderID",
+    "accelerator": null
+  },
+  {
+    "command": "CreateBackup",
+    "accelerator": "Shift+F6"
+  },
+  {
+    "command": "openPagesPublisher",
+    "accelerator": null
+  }
+]

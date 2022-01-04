@@ -1,0 +1,26 @@
+[
+  {
+    "id": "447f1a39-1726-41d1-8b7e-ae3ed5d06cf9",
+    "content": [
+      "tslint",
+      "特林特"
+    ],
+    "path": "file:///Users/matytan/.config/nvim/coc-settings.json\t159\t4"
+  },
+  {
+    "id": "fd65af7b-3bd4-4b53-a201-a359021db2f2",
+    "content": [
+      "string",
+      "细绳"
+    ],
+    "path": "file:///Users/matytan/.config/nvim/README_cn.md\t329\t2"
+  },
+  {
+    "id": "d3e23698-56df-4a86-832b-260be8f70716",
+    "content": [
+      "noremap",
+      "地图"
+    ],
+    "path": "file:///Users/matytan/.config/nvim/init.vim\t231\t1"
+  }
+]

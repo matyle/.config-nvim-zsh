@@ -1,0 +1,10 @@
+ span.copy-anchor-icon {
+								padding-left:8px;
+								cursor: pointer;
+							}
+							span.copy-anchor-icon.clicked::after {
+								content: "Copied!";
+								font-size: 10px;
+								font-weight: normal;
+							}
+						

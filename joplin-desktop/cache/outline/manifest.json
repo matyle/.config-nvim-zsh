@@ -1,0 +1,11 @@
+{
+	"manifest_version": 1,
+	"id": "outline",
+	"app_min_version": "1.6.7",
+	"version": "1.3.0",
+	"name": "Outline",
+	"description": "Outline (TOC) sidebar plugin for joplin.",
+	"author": "cqroot",
+	"homepage_url": "https://github.com/cqroot/joplin-outline",
+	"_package_hash": "a0f255d37c4d48874056a45a5e6f481a"
+}

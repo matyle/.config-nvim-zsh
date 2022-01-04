@@ -1,0 +1,17 @@
+[2021-12-25T10:18:33.295Z]: 
+KANBAN PLUGIN STARTED
+
+[2021-12-25T10:18:33.299Z]: Opening board for the first time, creating
+[2021-12-25T10:18:33.299Z]: Displaying board
+[2021-12-25T10:18:33.332Z]: Note selection changed
+[2021-12-25T10:18:33.333Z]: Opened new note, id: 9868103ba0224ff3bef023e07b694c0a
+[2021-12-25T10:18:36.868Z]: Got message from webview:
+{
+    "type": "load"
+}
+
+[2021-12-25T10:18:36.869Z]: Got message from webview:
+{
+    "type": "poll"
+}
+

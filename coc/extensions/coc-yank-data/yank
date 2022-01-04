@@ -1,0 +1,962 @@
+4ef43c0e657a14cd3732c01ece80cb2f|file:///Users/matytan/Downloads/nvim-master/init.vim|135|1|V|vim
+	noremap k i
+814560610b1762829128bb052c008d89|file:///Users/matytan/Downloads/nvim-master/init.vim|135|1|V|vim
+	noremap K I
+1e05036c41c92c5f751cecede004e7fe|file:///Users/matytan/.config/nvim/init.vim|174|1|v|vim
+	noremap <silent> u k
+	noremap <silent> n h
+	noremap <silent> e j
+	noremap <silent> i l
+	noremap <silent> gu gk
+	noremap <silent> ge gj
+	noremap <silent> \v v$h
+	
+	
+dbba012658ee0cf7c6c32e3bb86b5565|file:///Users/matytan/.zshenv|9|1|V|zsh
+	https://github.com/theniceboy/.config.git
+172e7fc47228ab63128427c4d81bcd55|file:///Users/matytan/.config/env.zsh|1|1|v|zsh
+	export PATH=$HOME/.local/bin:$PATH
+	export XDG_CONFIG_HOME=$HOME/.config
+	export LOCALBIN=$XDG_CONFIG_HOME/bin
+	export PATH=$PATH:$LOCALBIN
+	export LOCALPROG=$HOME/prog
+	export GOPATH=$HOME/go
+	export PATH=$PATH:$HOME/.gem/ruby/2.6.0
+	export PATH=$PATH:/usr/local/bin
+	export PATH=$PATH:$HOME/go/bin
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/sbin
+	export PATH=$PATH:$HOME/.linuxbrew/bin
+	export PATH=$PATH:$HOME/.linuxbrew/sbin
+	export PATH=$PATH:/usr/local/Cellar/node/15.0.1/bin
+	export PATH=$PATH:/usr/local/Cellar/node/14.2.0/bin
+	export PATH=$PATH:$HOME/.cargo/bin
+	export PATH=$PATH:/snap/bin
+	export PATH=$PATH:/usr/local/opt/node@12/bin
+	#export TERM=xterm-256color
+	export PATH=$PATH:$LOCALPROG/flutter/bin
+	export PATH=$PATH:$LOCALPROG/flutter/bin/cache/dart-sdk/bin
+	export PATH="$PATH":"$HOME/.pub-cache/bin"
+	export FLUTTER_ROOT=$LOCALPROG/flutter
+	export TERM=xterm-256color
+	export TERM_ITALICS=true
+	export RANGER_LOAD_DEFAULT_RC="false"
+	#export TERM=screen-256color
+	export EDITOR=nvim
+	export ZSH_AUTOSUGGEST_USE_ASYNC=1
+	export ZSH_AUTOSUGGEST_MANUAL_REBIND=1
+	export TERM=screen-256color-bce
+940871a07c81f2493386b8c9045476d8|file:///Users/matytan/.zshenv|10|1|V|zsh
+	export XDG_CONFIG_HOME=$HOME/.config
+	export LOCALBIN=$XDG_CONFIG_HOME/bin
+	export PATH=$PATH:$LOCALBIN
+	export LOCALPROG=$HOME/prog
+	export GOPATH=$HOME/go
+	export PATH=$PATH:$HOME/.gem/ruby/2.6.0
+	export PATH=$PATH:/usr/local/bin
+	export PATH=$PATH:$HOME/go/bin
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/sbin
+	export PATH=$PATH:$HOME/.linuxbrew/bin
+	export PATH=$PATH:$HOME/.linuxbrew/sbin
+	export PATH=$PATH:/usr/local/Cellar/node/15.0.1/bin
+	export PATH=$PATH:/usr/local/Cellar/node/14.2.0/bin
+	export PATH=$PATH:$HOME/.cargo/bin
+	export PATH=$PATH:/snap/bin
+	export PATH=$PATH:/usr/local/opt/node@12/bin
+	#export TERM=xterm-256color
+	export PATH=$PATH:$LOCALPROG/flutter/bin
+	export PATH=$PATH:$LOCALPROG/flutter/bin/cache/dart-sdk/bin
+	export PATH="$PATH":"$HOME/.pub-cache/bin"
+	export FLUTTER_ROOT=$LOCALPROG/flutter
+	export TERM=xterm-256color
+	export TERM_ITALICS=true
+	export RANGER_LOAD_DEFAULT_RC="false"
+	#export TERM=screen-256color
+	export EDITOR=nvim
+	export ZSH_AUTOSUGGEST_USE_ASYNC=1
+	export ZSH_AUTOSUGGEST_MANUAL_REBIND=1
+	export TERM=screen-256color-bce https://github.com/theniceboy/.config.git
+62691a6cde41fb37d530985a3be4acfd|file:///Users/matytan/niceboy/.config/zsh/zshrc|1|1|V|zsh
+	source ~/.config/zsh/env.zsh
+827da12743138514e21bd4542f6ae287|file:///Users/matytan/niceboy/.config/zsh/zshrc|2|1|V|zsh
+	source ~/.config/zsh/aliases.zsh
+	source ~/.config/zsh/plugins.zsh
+	source ~/.config/zsh/vi.zsh
+	source ~/.config/zsh/fzf.zsh
+	source ~/.config/zsh/mappings.zsh
+075dd9e27bbf9a0703c7aa559022ed34|file:///Users/matytan/niceboy/.config/zsh/zshrc|2|1|^v|zsh
+	s
+	s
+	s
+	s
+	s
+	
+4cd4f85033035fd8947482eb9b6d2e96|file:///Users/matytan/niceboy/.config/zsh/zshrc|2|1|v|zsh
+	source ~/.config/zsh/aliases.zsh
+	source ~/.config/zsh/plugins.zsh
+	source ~/.config/zsh/vi.zsh
+	source ~/.config/zsh/fzf.zsh
+	source ~/.config/zsh/mappings.zsh
+	
+	if [ -f ~/.sconfig/zsh/zshrc ]; then
+		source ~/.sconfig/zsh/zshrc
+	fi
+	
+	autopair-init
+	source ~/.zim/modules/fzf-tab/fzf-tab.plugin.zsh
+	
+	source ~/.config/zsh/prompt.zsh
+03f1ec6ac57659f39438039702bb5bbf|file:///Users/matytan/.config/zimrc|1|1|V|
+	zmodule environment
+	zmodule git
+	zmodule input
+	zmodule termtitle
+	zmodule utility
+	zmodule completion
+	zmodule git-info
+	zmodule duration-info
+	zmodule prompt-pwd
+	zmodule magicmace
+	zmodule zsh-users/zsh-completions
+	zmodule zsh-users/zsh-autosuggestions
+	zmodule zsh-users/zsh-history-substring-search
+	zmodule zdharma-continuum/fast-syntax-highlighting
+	zmodule supercrabtree/k
+	zmodule hlissner/zsh-autopair
+	zmodule pabloariasal/zfm
+	zmodule agkozak/zsh-z
+	zmodule Aloxaf/fzf-tab
+ce3f372a94d179db0a781f6d6df6f98c|file:///Users/matytan/.config/nvim/init.vim|299|42|v|vim
+	<++>
+5011bcdc47c82ca3950c9e2effe10450|file:///Users/matytan/.config/zsh/aliases.zsh|13|16|v|zsh
+	RANGER_LEVEL'
+e6d4fc1154222723bbd404c66c0c2d17|file:///Users/matytan/.config/zsh/aliases.zsh|13|16|v|zsh
+	RANGER_LEVEL
+5b4bee02f89d44a0757bd97214f2fa96|file:///Users/matytan/.config/nvim/init.vim|674|1|v|vim
+		call CocActionAsync('highlight')
+7df4935f4a5a2865191ef74f64df8754|file:///Users/matytan/.config/zsh/test.go|1|1|v|go
+	func
+202a794bf05680b49834bd34a95d45f9|file:///Users/matytan/.config/zsh/test.go|3|1|V|go
+	fmt.Pr
+	}
+0108ce74ec2c8f864981ae870230f267|file:///Users/matytan/.config/README_cn.md|62|1|V|markdown
+	## GTK 主题
+	我使用 `adapta-gtk-theme` 与 `arc-icon-theme`
+	
+be01dd6eea660bb245350c149fe123cd|file:///Users/matytan/.config/nvim/init.vim|7|12|v|vim
+	theniceboy
+c1f3d28f1b044c871e6eff2e9fc3c667|untitled:1|1|1|V|
+	string name
+b45cffe084dd3d20d928bee85e7b0f21|untitled:1|1|1|v|
+	string
+f97e36816671235e14ea5007b6c69989|untitled:1|1|1|v|
+	strin
+e033bda4da5e54861a507851b670c9ad|untitled:1|2|1|v|
+	stri
+20cdd879f4dcfb6fb4d7de18d7e464ff|untitled:1|1|1|v|
+	string 
+86e50f1e0ea25a8a2cac77d3beca077a|untitled:1|1|1|v|
+	string n
+b48ff6a4003720df478b2efdc3895eed|file:///Users/matytan/.config/nvim/init.vim|863|1|V|vim
+	let g:multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	let g:multi_cursor_start_word_key      = '<C-n>'
+	let g:multi_cursor_select_all_word_key = '<A-n>'
+	let g:multi_cursor_start_key           = 'g<C-n>'
+	let g:multi_cursor_select_all_key      = 'g<A-n>'
+	let g:multi_cursor_next_key            = '<C-n>'
+	let g:multi_cursor_prev_key            = '<C-p>'
+	let g:multi_cursor_skip_key            = '<C-x>'
+	let g:multi_cursor_quit_key            = '<Esc>'
+c91b2622bc9dd245c06f462e8b1b5208|file:///Users/matytan/.config/nvim/init.vim|889|40|v|vim
+	<C-n>
+b7b530e169f45c731ed327198d8b690b|file:///Users/matytan/.config/nvim/init.vim|1115|3|v|vim
+	let 
+3405e73549593496608ea52f6453fd7e|file:///Users/matytan/.config/nvim/init.vim|1150|1|v|vim
+	let g:xtabline_settings.enable_persistance = 0
+e7fcf8e49e39af3c66af246fdcf535df|file:///Users/matytan/.config/nvim/init.vim|895|24|v|vim
+	             
+b08f56f15a5e37e4d282fadf9c8c6c95|file:///Users/matytan/.config/nvim/test.go|3|2|v|go
+	trhh
+36e3d19b991529b2cc60c9e0980d9b34|file:///Users/matytan/.config/nvim/test.go|2|1|v|go
+	func main(
+cae1965270215a45f9174d154199a75c|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	"
+82edc0f5d8a7919dbd8ac0038a7c1c5f|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"
+1cd0f07efc968322d74025510174c3cd|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"
+f02e0510cfbdfdee6d34230a26606a20|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"
+a07c3d6ab75d197f4e100e3273f2024a|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"
+396477cc81fad57f38a38d72844a16ea|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"let g:multi_cursor_select_all_key      = 'g<A-n>'
+	"
+7ee6ae2e29fb4836755eefa7a4cee5fb|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"let g:multi_cursor_select_all_key      = 'g<A-n>'
+	"let g:multi_cursor_next_key            = '<C-n>'
+	"
+8514f54991e7e80838c49d8aea29db17|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"let g:multi_cursor_select_all_key      = 'g<A-n>'
+	"let g:multi_cursor_next_key            = '<C-n>'
+	"let g:multi_cursor_prev_key            = '<C-p>'
+	"
+bf1d44a0c73e24ca85d9efe6ea310b0b|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"let g:multi_cursor_select_all_key      = 'g<A-n>'
+	"let g:multi_cursor_next_key            = '<C-n>'
+	"let g:multi_cursor_prev_key            = '<C-p>'
+	"let g:multi_cursor_skip_key            = '<C-x>'
+	"
+2b2c66d8e70c9cc61523a091f99d4cc4|file:///Users/matytan/.config/nvim/init.vim|863|8|v|vim
+	multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"let g:multi_cursor_select_all_key      = 'g<A-n>'
+	"let g:multi_cursor_next_key            = '<C-n>'
+	"let g:multi_cursor_prev_key            = '<C-p>'
+	"let g:multi_cursor_skip_key            = '<C-x>'
+	"let g:multi_cursor_quit_key            = '<Esc>'
+	"
+8df80c21e6a6e9cb83de6af0f2d1959a|file:///Users/matytan/.config/nvim/init.vim|879|2|v|vim
+	let g
+46d9093e6ba07a8cd92681969613b7a0|file:///Users/matytan/.config/nvim/init.vim|879|2|v|vim
+	let g:multi_cursor_select_all_word_key = '<a-k>'
+04c95cad291571e38bdfcc98427378df|file:///Users/matytan/.config/nvim/init.vim|895|36|v|vim
+	  = 
+f6f1bbd95abcd3e07137070f20f00462|file:///Users/matytan/.config/nvim/init.vim|895|35|v|vim
+	   = 
+955c9cd70833bbbf44abc22ac9133fe5|file:///Users/matytan/.config/nvim/init.vim|895|34|v|vim
+	    = 
+fa103b1359062ae25b72e52a8ff757ff|file:///Users/matytan/.config/nvim/init.vim|895|33|v|vim
+	     = 
+5b892f4c649496e4a0cc6c2c0aa627e8|file:///Users/matytan/.config/nvim/init.vim|895|32|v|vim
+	      = 
+a81da256ec116c63c603659b91e23ffd|file:///Users/matytan/.config/nvim/init.vim|895|31|v|vim
+	       = 
+4efd7db63aa4f79980fcfed960bc0fd1|file:///Users/matytan/.config/nvim/init.vim|895|30|v|vim
+	        = 
+a3af7200037ad0041a2b5dc271fc3305|file:///Users/matytan/.config/nvim/init.vim|895|29|v|vim
+	         = 
+22106407714dd40ba31cbb26d5f8922c|file:///Users/matytan/.config/nvim/init.vim|895|28|v|vim
+	          = 
+534a5ddc900b25f6f10b4748c49ff412|file:///Users/matytan/.config/nvim/init.vim|895|27|v|vim
+	           = 
+beccc11fcb56988f4a5cdf3cb9d12a3c|file:///Users/matytan/.config/nvim/init.vim|895|26|v|vim
+	            = 
+5d13ed0f5d94b0f7661a43eb14391729|file:///Users/matytan/.config/nvim/init.vim|895|25|v|vim
+	             = 
+60ca5710986b071b57fa234557ca5418|file:///Users/matytan/.config/nvim/init.vim|895|24|v|vim
+	s             = 
+1b783d599872b7eb07d6e88ff60bc6bc|file:///Users/matytan/.config/nvim/init.vim|895|23|v|vim
+	ns             = 
+88a5ee695b8909ebb13df563f94fa831|file:///Users/matytan/.config/nvim/init.vim|895|22|v|vim
+	ons             = 
+bb352bb4af206658ea59898d961bf878|file:///Users/matytan/.config/nvim/init.vim|895|21|v|vim
+	ions             = 
+1adbee792be216f78b4a86f01422d86e|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:
+dcf6754b492f1bf5a1936f4ace7b4c60|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:V
+40922d0ca2107d637b005c633dec4ae0|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM
+23fdced6fe76448d3a7b80936eb94622|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_
+57732681200b921ce999bd4cef6e4761|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_m
+3e605a6f38c32734f2a09a12767ef7e8|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_ma
+60987825b1a9592b8cd05f870aa401fe|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_map
+9b12d8099f6c3e0f00345230c8753d7e|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']          = ''
+22c626a306e9260393841653554c28d4|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']          = '
+f00a1842ccfb0e2ca95beb6412ebb7e4|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']          = 
+8fb80c621cce8ee69eea373b7e42271f|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']          =
+409599e521db81412e261f5a75fde270|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']          
+62263efb94b73b3d9c2b96c266aef23c|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']         
+4dd979e21bd2b8d1e3eaa3cb47946b4c|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']        
+99841b3e39dd51b0716b7b042aaefabc|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']       
+cae25a078ea22b3a5584372abd53ae77|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']      
+1939814c0f929bf718e79d2bc3b98b31|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']     
+205aab2acd423736495c0c18b9e10b5e|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']    
+1f40aa87b22bf40750ce3477d87cf3dd|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']   
+718fe60c08d822ffe471f43e852d2909|file:///Users/matytan/.config/nvim/init.vim|900|1|v|vim
+	let g:VM_maps['Find Next']  
+30c73042756c74a48290ef166543402f|file:///Users/matytan/.config/nvim/init.vim|912|1|v|vim
+	let g:far#mapping = {
+63060450616dd00f3d83ae6c565b788a|file:///Users/matytan/.config/nvim/init.vim|946|1|v|vim
+	let g:vista_fzf_preview = ['right:50%']
+bada216d33abf1082c91c9b65b782fe6|file:///Users/matytan/.config/nvim/init.vim|1025|1|v|vim
+	let g:v
+a5dddc544263837780a40e61ae1d22ab|file:///Users/matytan/.config/nvim/init.vim|1025|1|v|vim
+	let g:far#mapping =
+f3cebc81fa55ada5927bcd6616f4dbf3|file:///Users/matytan/.config/nvim/init.vim|1025|1|v|vim
+	let g:vimtex_motion_enabled = 0
+5a69bf35ace525876d16f527c10f949d|file:///Users/matytan/.config/nvim/init.vim|1025|1|v|vim
+	let g:go_doc_popup_window =
+2d7fb56864c871c2e8f8b1af4c213e05|file:///Users/matytan/.config/nvim/init.vim|1025|1|v|vim
+	let g:go_doc_popup_window = 1
+7c0132070a0ef71d542663e9dc1f5dee|file:///Users/matytan/.config/nvim/init.vim|1253|1|v|vim
+	nmap
+0891a8b4a4776a4807af3a34776c77d9|file:///Users/matytan/.config/nvim/init.vim|892|7|v|vim
+	VM_default_mappings
+912d8e61a2811ff3e25e3518fbbb5290|file:///Users/matytan/.config/nvim/init.vim|988|1|v|vim
+	let g:vimtex_view_general_viewer = 'llpp'
+43fde89924a1488fc3b14b54ef8c0649|file:///Users/matytan/.config/nvim/init.vim|892|1|v|vim
+	let g:VM_default_mappings = 0
+656c0db2ebd30b1a202cc05a028a6e35|file:///Users/matytan/.config/nvim/init.vim|895|2|v|vim
+	let g:VM_maps                       = {}
+c0addad0517645f26b672951a7cbdf63|file:///Users/matytan/.config/nvim/init.vim|895|2|v|vim
+	let g:VM_custom_motions             = {'n': 'h', 'i': 'l', 'u': 'k', 'e': 'j', 'N': '0', 'I': '$', 'h': 'e'}
+334ea0b9dd53b20b1554937c6dd08782|file:///Users/matytan/.config/nvim/test.go|2|1|v|go
+	string user
+a1f9c1e966ac0fc4740c0331d1bd6450|file:///Users/matytan/.config/nvim/init.vim|14|1|v|vim
+	                 
+b6e59096450687fcf06213c0f8b65c41|file:///Users/matytan/.config/nvim/init.vim|14|1|v|vim
+	                 _         _              
+ecae8f5dca4a7713621cf40991e06f31|file:///Users/matytan/.config/nvim/init.vim|14|1|v|vim
+	                 _         _             
+25760613b16afdbe30f18ecee2b49f48|file:///Users/matytan/.config/nvim/init.vim|15|1|v|vim
+	 _ __ ___   __ _| |_ _   _| |_ __ _ _ __  
+852c7f7871e9547ef30f44fca307ee38|file:///Users/matytan/.config/nvim/init.vim|16|5|v|vim
+	 ` _ \ / _` | __| | | | __/ _` | '_ \ 
+d60b29d42105274b514eecb8097291d9|file:///Users/matytan/.config/nvim/README_cn.md|332|1|V|markdown
+	#### [vim-surround](https://github.com/tpope/vim-surround)
+	想要添加包裹符号 (`string` -> `"string"`):
+cb5f479e95799249c1a75ea0f158417c|file:///Users/matytan/.config/nvim/README_cn.md|335|1|V|markdown
+	```
+	string
+08c271bf9d2ef241f9da8610b4af442f|file:///Users/matytan/.config/nvim/README_cn.md|336|1|V|markdown
+		```
+		string
+cd30ce8f461c36c5226fa7b291826ab6|file:///Users/matytan/.config/nvim/README_cn.md|173|1|^v|markdown
+	用
+	  
+	##
+	| 
+	|-
+1c491a2ae63a23cde76ac3f271105211|file:///Users/matytan/.config/nvim/README_cn.md|299|1|v|markdown
+	| `Ctrl`+`k` | **选择下一个键 (多重光标)** |
+4064433978075c4cc4103a15c96f1156|file:///Users/matytan/.config/nvim/README_cn.md|297|1|V|markdown
+	| 快捷键     | 行为                        |
+	|------------|-----------------------------|
+	| `Ctrl`+`k` | **选择下一个键 (多重光标)** |
+	| `Alt`+`k`  | **选择所有键 (多重光标)**   |
+	| `Ctrl`+`p` | 选择上一个键                |
+	| `Ctrl`+`s` | 跳过键                      |
+	| `Esc`      | 退出多重光标                |
+	
+	<img alt="Gif" src="https://raw.githubusercontent.com/terryma/vim-multiple-cursors/master/assets/example1.gif" width="60%" />
+	<img alt="Gif" src="https://raw.githubusercontent.com/terryma/vim-multiple-cursors/master/assets/example2.gif" width="60%" />
+	<img alt="Gif" src="https://raw.githubusercontent.com/terryma/vim-multiple-cursors/master/assets/example3.gif" width="60%" />
+	<img alt="Gif" src="https://raw.githubusercontent.com/terryma/vim-multiple-cursors/master/assets/example4.gif" width="60%" />
+c5dc5abdfbc14f7efaa124b9d9c43a63|file:///Users/matytan/.config/nvim/README_cn.md|296|1|V|markdown
+	#### [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+605924004fc75e37cc9ef3275c47dd80|file:///Users/matytan/.config/nvim/README_cn.md|304|2|V|markdown
+		```
+226369b0b82e900c634dbcacf12340d1|file:///Users/matytan/.config/nvim/README_cn.md|303|2|V|markdown
+		'
+		string
+57864fc02349cc48b5845e95090eeccb|file:///Users/matytan/.config/nvim/test.go|1|1|V|go
+	string n
+	string name
+155277ef7952af5fba891d4788def5c5|file:///Users/matytan/.config/nvim/README_cn.md|313|1|V|markdown
+	```
+	想要修改包裹符号
+e428378e0777035e5e796dd960b904a9|file:///Users/matytan/.config/nvim/README_cn.md|308|9|v|markdown
+	yskw'
+5e0a748c287841a03864f3215acb7697|file:///Users/matytan/.config/nvim/test.go|5|1|V|go
+	/string/ user
+e92b721b186e866f920f5611664386be|file:///Users/matytan/.config/nvim/test.go|8|1|v|go
+	*string*
+60300f01f3f09bd8780e2e64be20e950|file:///Users/matytan/.config/nvim/test.go|8|9|V|go
+	*string* user
+7970541b7d132daf7c8766a8caee148c|file:///Users/matytan/.config/nvim/test.go|7|9|V|go
+	<em>string</em> user
+f44a415dfebb03c2520e6b352afa9341|file:///Users/matytan/.config/nvim/test.go|3|1|V|go
+	(string) user
+46503602aa16067b76e3b3965f13448c|file:///Users/matytan/.config/nvim/test.go|2|1|V|go
+	"string" name
+a5245bf0df2ff086ad9fc205b32f1c7f|file:///Users/matytan/.config/nvim/test.go|1|1|V|go
+	"string" n
+0a41592d81797276c39ebff2009cf7a4|file:///Users/matytan/.config/nvim/init.vim|588|1|v|vim
+	"color gruvbox
+6aee6481bb24589f0177541277c2599a|file:///Users/matytan/.config/nvim/init.vim|589|1|v|vim
+	"let ayucolor="light"
+c29ad3fe6b4526371c3556a18aa0cd09|file:///Users/matytan/.config/nvim/init.vim|590|1|v|vim
+	"color ayu
+c8dd24203c31e93acde86577677c07cc|file:///Users/matytan/.config/nvim/init.vim|588|1|V|vim
+	"set cursorcolumn
+23db567d344460a43b2b2dfe0399d2c4|file:///Users/matytan/.config/nvim/init.vim|642|1|V|vim
+		\ 'coc-json',
+466deec76ecdf5fca6d38571f6324d54|file:///Users/matytan/.config/nvim/init.vim|643|9|v|vim
+	json
+746fb2b5cb63ba30edc957ce95a28dbd|file:///Users/matytan/.config/nvim/coc-settings.json|131|2|V|jsonc
+			"k": "addFile",
+e3c6586da6da98a29b694f92dd765bda|file:///Users/matytan/.config/zsh/env.zsh|10|1|v|zsh
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/sbin
+	export PATH=$PATH:$HOME/.linuxbrew/bin
+	export PATH=$PATH:$HOME/.linuxbrew/sbin
+	e
+881884df2cc7940c0d3326b3e21c7102|file:///Users/matytan/.config/zsh/env.zsh|10|1|V|zsh
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+	export PATH=$PATH:/home/linuxbrew/.linuxbrew/sbin
+	export PATH=$PATH:$HOME/.linuxbrew/bin
+	export PATH=$PATH:$HOME/.linuxbrew/sbin
+	export PATH=$PATH:/usr/local/Cellar/node/15.0.1/bin
+	export PATH=$PATH:/usr/local/Cellar/node/14.2.0/bin
+0688d019b88a14ac43919fa9151d3c66|file:///Users/matytan/.config/zsh/env.zsh|10|1|V|zsh
+	export PATH=$PATH:$HOME/.cargo/bin
+8bd888b69796decae81d1221d093781c|file:///Users/matytan/.config/nvim/init.vim|25|50|v|vim
+	MYVIMRC
+dd9727ffd0fbad278bb531225202de90|file:///Users/matytan/.config/nvim/init.vim|729|23|v|vim
+	David 
+ef6bf3fd02c2c92bf0e156d4b5b818ac|file:///Users/matytan/.config/nvim/init.vim|729|23|v|vim
+	Chen
+73f9977556584a369800e775b48f3dbe|untitled:8|8|9|v|
+	Something
+d5e49cd5724f9e40cf673ae475aeb727|file:///Users/matytan/.config/nvim/init.vim|685|1|V|vim
+	" let $NVIM_COC_LOG_FILE = '/Users/david/Desktop/log.txt'
+bdd164aa9fe096f2c6813dd099ee00eb|file:///Users/matytan/.config/nvim/init.vim|683|1|V|vim
+	" let g:coc_node_args = ['--nolazy', '--inspect-brk=6045']
+	" let $NVIM_COC_LOG_LEVEL = 'debug'
+47d7793b2aea50dbced698e9ece589fc|file:///Users/matytan/.config/nvim/init.vim|797|1|v|vim
+	let g:Lf_CommandMap = {
+c004727d881ea08096da49839b631c2f|file:///Users/matytan/.config/nvim/init.vim|797|1|v|vim
+	let g:Lf_CommandMap = 
+619ecc3836c7a63ab2d53c9e7e875e6e|file:///Users/matytan/.config/nvim/init.vim|797|7|v|vim
+	Lf_CommandMap
+36ce057c6df5b6e1c80c4833187bef89|file:///Users/matytan/.config/nvim/init.vim|797|7|v|vim
+	Lf_CommandMa
+3d6bbee2f0e20c0b0122d6cd0bf54a88|file:///Users/matytan/.config/nvim/init.vim|797|7|v|vim
+	Lf_CommandM
+697aeba1f83b4326c7d5f9e9d7fd8ef2|file:///Users/matytan/.config/nvim/init.vim|797|1|v|vim
+	let g:L
+599d808114e85a686d4c8bdfa3e5fc53|file:///Users/matytan/.config/nvim/init.vim|862|1|V|vim
+	"let g:multi_cursor_use_default_mapping=0
+	
+	" Default mapping
+	"let g:multi_cursor_start_word_key      = '<C-n>'
+	"let g:multi_cursor_select_all_word_key = '<A-n>'
+	"let g:multi_cursor_start_key           = 'g<C-n>'
+	"let g:multi_cursor_select_all_key      = 'g<A-n>'
+	"let g:multi_cursor_next_key            = '<C-n>'
+	"let g:multi_cursor_prev_key            = '<C-p>'
+	"let g:multi_cursor_skip_key            = '<C-x>'
+	"let g:multi_cursor_quit_key            = '<Esc>'
+	" ==
+	" == vim-multiple-cursor
+	" ==
+	"let g:multi_cursor_use_default_mapping = 0
+	"let g:multi_cursor_start_word_key = '<c-k>'
+	"let g:multi_cursor_select_all_word_key = '<a-k>'
+	"let g:multi_cursor_start_key = 'g<c-k>'
+	"let g:multi_cursor_select_all_key = 'g<a-k>'
+	"let g:multi_cursor_next_key = '<c-k>'
+	"let g:multi_cursor_prev_key = '<c-p>'
+	"let g:multi_cursor_skip_key = '<C-s>'
+	"let g:multi_cursor_quit_key = '<Esc>'
+0dee5d9868dbe05d0d23a58cc79fd2ef|file:///Users/matytan/.config/nvim/init.vim|881|1|v|vim
+	let g:VM_maps["Redo"]               = '<C-r>'
+d4bfc2c3527e94064d40aee441da3f53|file:///Users/matytan/.config/nvim/init.vim|872|7|v|vim
+	VM_maps
+d76cb98a1866c133f7311add1bbcc749|file:///Users/matytan/.config/nvim/init.vim|871|1|V|vim
+	"let g:VM_custom_motions             = {'n': 'h', 'i': 'l', 'u': 'k', 'e': 'j', 'N': '0', 'I': '$', 'h': 'e'}
+a40bef90468f72ac2046d735415cc77c|file:///Users/matytan/.config/nvim/init.vim|871|1|V|vim
+	"let g:VM_maps['i']                  = 'i'
+12028ec1f9cdf49b6930511f98c51707|file:///Users/matytan/.config/nvim/init.vim|871|1|V|vim
+	"let g:VM_maps['I']                  = 'I'
+54167a21fb9ab3ae0da4554440231600|file:///Users/matytan/.config/nvim/init.vim|726|26|v|vim
+	'<c-p>'
+5558da9ed2057ce11db76293342526bc|file:///Users/matytan/.config/nvim/init.vim|869|8|V|vim
+	let g:VM_leader                     = {'default': ',', 'visual': ',', 'buffer': ','}
+b88f16193ddf96cc8c926ce9dcf6aa4a|file:///Users/matytan/.config/nvim/init.vim|875|42|^v|vim
+	-'  
+	    
+b9bda22932a6620aff21d9612ddd524a|file:///Users/matytan/.config/nvim/init.vim|875|41|^v|vim
+	'
+	'
+	C
+	 
+	 
+	 
+	 
+	 
+	e
+	 
+	 
+1040bfccd6aecd8741e785b707b32d56|file:///Users/matytan/.config/nvim/init.vim|630|1|V|vim
+	let g:coc_global_extensions = [
+		\ 'coc-css',
+		\ 'coc-diagnostic',
+		\ 'coc-docker',
+		\ 'coc-eslint',
+		\ 'coc-explorer',
+		\ 'coc-flutter-tools',
+		\ 'coc-gitignore',
+		\ 'coc-html',
+		\ 'coc-import-cost',
+		\ 'coc-java',
+		\ 'coc-jest',
+		\ 'coc-json',
+		\ 'coc-go',
+		\ 'coc-lists',
+		\ 'coc-omnisharp',
+		\ 'coc-prettier',
+		\ 'coc-prisma',
+		\ 'coc-pyright',
+		\ 'coc-snippets',
+		\ 'coc-sourcekit',
+		\ 'coc-stylelint',
+		\ 'coc-syntax',
+		\ 'coc-tailwindcss',
+		\ 'coc-tasks',
+		\ 'coc-translator',
+		\ 'coc-tsserver',
+		\ 'coc-vetur',
+		\ 'coc-vimlsp',
+		\ 'coc-yaml',
+		\ 'coc-yank',
+		\ 'https://github.com/rodrigore/coc-tailwind-intellisense']
+	inoremap <silent><expr> <TAB>
+		\ pumvisible() ? "\<C-n>" :
+		\ <SID>check_back_space() ? "\<TAB>" :
+		\ coc#refresh()
+	inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+	inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+	function! s:check_back_space() abort
+		let col = col('.') - 1
+		return !col || getline('.')[col - 1]  =~# '\s'
+	endfunction
+	inoremap <silent><expr> <c-space> coc#refresh()
+	inoremap <silent><expr> <c-o> coc#refresh()
+	function! Show_documentation()
+		call CocActionAsync('highlight')
+		if (index(['vim','help'], &filetype) >= 0)
+			execute 'h '.expand('<cword>')
+		else
+			call CocAction('doHover')
+		endif
+	endfunction
+	nnoremap <LEADER>h :call Show_documentation()<CR>
+	"set runtimepath^=~/.config/nvim/coc-extensions/coc-flutter-tools/
+	" let g:coc_node_args = ['--nolazy', '--inspect-brk=6045']
+	" let $NVIM_COC_LOG_LEVEL = 'debug'
+	
+	nnoremap <silent><nowait> <leader>d :coclist diagnostics<cr>
+	nmap <silent> <leader>- <plug>(coc-diagnostic-prev)
+	nmap <silent> <leader>= <plug>(coc-diagnostic-next)
+	nnoremap <c-c> :coccommand<cr>
+	" text objects
+	xmap if <plug>(coc-funcobj-i)
+	xmap af <plug>(coc-funcobj-a)
+	omap if <plug>(coc-funcobj-i)
+	omap af <plug>(coc-funcobj-a)
+	xmap ic <plug>(coc-classobj-i)
+	omap ic <plug>(coc-classobj-i)
+	xmap ac <plug>(coc-classobj-a)
+	omap ac <plug>(coc-classobj-a)
+	" useful commands
+	nnoremap <silent> <space>y :<c-u>coclist -a --normal yank<cr>
+	nmap <silent> gd <plug>(coc-definition)
+	nmap <silent> gd :tab sp<cr><plug>(coc-definition)
+	nmap <silent> gy <plug>(coc-type-definition)
+	" nmap <silent> gi <plug>(coc-implementation)
+	nmap <silent> gr <plug>(coc-references)
+	nmap <leader>rn <plug>(coc-rename)
+	nmap tt :coccommand explorer<cr>
+	" coc-translator
+	nmap tS <Plug>(coc-translator-p)
+	" remap for do codeaction of selected region
+	function! s:cocactionsopenfromselected(type) abort
+	  execute 'coccommand actions.open ' . a:type
+	endfunction
+	xmap <leader>a  <plug>(coc-codeaction-selected)
+	nmap <leader>aw  <plug>(coc-codeaction-selected)w
+	" coctodolist
+	" nnoremap <leader>tn :coccommand todolist.create<cr>
+	" nnoremap <leader>tl :coclist todolist<cr>
+	" nnoremap <leader>tu :coccommand todolist.download<cr>:coccommand todolist.upload<cr>
+	" coc-tasks
+	noremap <silent> <leader>ts :coclist tasks<cr>
+	" coc-snippets
+	imap <c-e> <plug>(coc-snippets-expand)
+	vmap <c-j> <plug>(coc-snippets-select)
+	let g:coc_snippet_next = '<c-n>'
+	let g:coc_snippet_prev = '<c-p>'
+	imap <c-j> <plug>(coc-snippets-expand-jump)
+	let g:snips_author = 'maty tan'
+	autocmd bufread,bufnewfile tsconfig.json set filetype=jsonc
+42fd080c0d1a2a81f6fda260ba3fab2a|file:///Users/matytan/.config/nvim/init.vim|630|1|V|vim
+	ueni的键位
+a5c23fe29662fb810ac1b37b09f3eaff|file:///Users/matytan/.config/nvim/init.vim|729|23|v|vim
+	David Chen
+c779e80d8e7d06f3c63f0b72067de68f|file:///Users/matytan/.config/nvim/init.vim|731|8|V|vim
+	" TODO:   <03-01-22, matytan> "
+0cf31b2c283ce3431794586df7b0996d|file:///Users/matytan/.config/nvim/init.vim|875|1|v|vim
+	    
+48c781b463198bfad889cf80e8299b45|file:///Users/matytan/.config/nvim/init.vim|875|1|v|vim
+	    let g:VM_maps['Select h']           = '<C-Left>'
+9e549b1fa81fd55e8c4597144350efed|file:///Users/matytan/.config/nvim/init.vim|875|1|^v|vim
+	    
+	    
+	    
+	    
+	    
+	    
+c03b843f3085c3b7b7532cb25a61df03|file:///Users/matytan/.config/nvim/init.vim|876|1|v|vim
+	let g:VM_maps['Select h']           = '<C-Left>'
+dae5b786027d121e8dd6a9742f4b1a57|file:///Users/matytan/.config/nvim/init.vim|874|41|v|vim
+	C-d>'
+2dab07564efed27c150e38e76a1add96|file:///Users/matytan/.config/nvim/init.vim|1356|17|v|vim
+	,
+	            \ 'style': 
+98c7422ffcecba3e06a0f925497a3171|file:///Users/matytan/.config/nvim/init.vim|1356|17|v|vim
+	,
+	            \ 'col': 0,
+bf3814c073c7bfc66d0e46d3d9a2e0fa|file:///Users/matytan/.config/nvim/init.vim|1356|17|v|vim
+	,
+	            \ 'row': 0,
+fe4b8158e7664da5a957765bcad54ac1|file:///Users/matytan/.config/nvim/init.vim|1356|17|v|vim
+	,
+	            \ 'width': &columns,
+1606db049fe469180253d0cb4a1a0013|file:///Users/matytan/.config/nvim/init.vim|1356|17|v|vim
+	,
+	            \ 'height': &lines,
+646a3f8722c7d779879660bef0ae3875|file:///Users/matytan/.config/nvim/test.go|3|1|v|go
+	niceone
+945d5e233cf7d6240f6b783b36a374ff|file:///Users/matytan/.config/nvim/init.vim|875|43|v|vim
+	Left
+09d5e2edf47926bd82bbd73bad87dcb3|file:///Users/matytan/.config/nvim/init.vim|875|42|V|vim
+	let g:VM_maps['Select h']           = '<C->'
+49657157b4381f05d1f732757e75993d|file:///Users/matytan/.config/nvim/init.vim|875|42|V|vim
+	let g:VM_maps['Select l']           = '<C-Right>'
+d4faa5a6cb3401c5fc2b1e60b60049a2|file:///Users/matytan/.config/nvim/init.vim|877|42|V|vim
+	let g:VM_maps['Add Cursor At Pos']  = '<C-x>'
+0a759599bd5e6b60525afd375f9b5f79|file:///Users/matytan/.config/nvim/init.vim|877|42|V|vim
+	let g:VM_maps['Add Cursor At Word'] = '<C-w>'
+ce3e451cbe888c13bba1998be938bc5d|file:///Users/matytan/.config/nvim/init.vim|874|41|V|vim
+	let g:VM_maps['Select All']         = '<C-d>'
+ee787d87f5fa507f483ada3e729487bd|file:///Users/matytan/.config/nvim/init.vim|874|41|V|vim
+	let g:VM_maps['Add Cursor Up']      = '<C-Up>'
+cd8ce1b2eb3356527be2a6d5a3d3ff4f|file:///Users/matytan/.config/nvim/init.vim|874|41|V|vim
+	let g:VM_maps['Add Cursor Down']    = '<C-Down>'
+cfea1db02d5c5f87ec339eb7ccf3580e|file:///Users/matytan/.config/nvim/test.go|3|1|v|go
+	string user
+	int
+	f
+bc742767f55bb5f7a07741334ae82569|file:///Users/matytan/.config/nvim/test.go|3|1|v|go
+	string user
+	int
+	
+2ffd5c5b0da6b8954f96f57c51b0a4d7|file:///Users/matytan/.config/nvim/init.vim|979|2|V|vim
+		autocmd FileType calendar nmap <buffer> e <Plug>(calendar_down)
+0db5956616aaf622968288b1b698156f|file:///Users/matytan/.config/zsh/env.zsh|8|1|V|zsh
+	export PATH=$PATH:/usr/local/bin
+edf0b36ad04e8c1d93c59c4e88f0c997|file:///Users/matytan/.config/zsh/env.zsh|8|1|V|zsh
+	export PATH=$PATH:$HOME/go/bin
+710533dd879dd1202e5c73b27705bf02|file:///Users/matytan/.config/zsh/env.zsh|8|20|v|zsh
+	HOME
+1b52cf7bf8cbcc6367d610e428c59857|file:///Users/matytan/.config/zsh/env.zsh|9|26|V|zsh
+	export PATH=$PATH:$GOPATH/bin
+164420882693eb02857fb80f1a9d321b|file:///Users/matytan/.zshrc|152|1|V|zsh
+	export GO111MODULE=off
+	export GOPROXY="https://goproxy.cn,direct"
+1ecd81b9e39e45aa92f5b18fa87bf76b|file:///Users/matytan/.config/zsh/env.zsh|7|30|V|zsh
+	export PATH=$PATH:$GOPATH/bin 
+170f70ecb8a3517152cf264f43c90733|file:///Users/matytan/.zshrc|151|1|V|zsh
+	# golang
+	export GO111MODULE=off
+	export GOPROXY="https://goproxy.cn,direct"
+dbdeb932cb663793b435122cbad2c995|file:///Users/matytan/.zshrc|151|1|V|zsh
+	# golang
+	export GO111MODULE=off
+	export GOPROXY="https://goproxy.cn,direct"
+	
+ad6632bb7b76e0aebfd530780ddbc4d5|file:///Users/matytan/main.go|1|1|V|go
+	func main
+6c5e2a1a7c0c8d6d67b0a3bd5d35dc23|file:///Users/matytan/.config/nvim/coc-settings.json|209|3|^v|jsonc
+	"golang": {                                            
+		"command": "gopls",                                  
+		"rootPatterns": ["go.mod",".vim/", ".git/", ".hg/"], 
+		"filetypes": ["go"],                                 
+		"initializationOptions": {                           
+			"gocodeCompletionEnabled": true,                   
+			"diagnosticsEnabled": true,                        
+			"lintTool": "golint"                               
+		}                                                    
+	},                                                     
+c0d2764137aab9bc82d4666c565eabf8|file:///Users/matytan/.config/nvim/coc-settings.json|217|2|V|jsonc
+			"bash": {
+78f9a30ff06d4e72c30fd4854417c4b2|file:///Users/matytan/.config/nvim/coc-settings.json|217|2|V|jsonc
+				"command": "bash-language-server",
+1e11c0a47039d93d9357a7c0303f7e3c|file:///Users/matytan/.config/nvim/coc-settings.json|209|1|V|jsonc
+			"golang": {
+				"command": "gopls",
+				"rootPatterns": ["go.mod",".vim/", ".git/", ".hg/"],
+				"filetypes": ["go"],
+				"initializationOptions": {
+					"gocodeCompletionEnabled": true,
+					"diagnosticsEnabled": true,
+					"lintTool": "golint"
+				}
+			},
+9c20061082f3ff2215eeaedc1ffe01ff|file:///Users/matytan/main.go|4|3|V|go
+		todo
+3ff246a1626dafc9d5356e22aa955982|file:///Users/matytan/main.go|3|4|V|go
+		syn
+7ac6dfe05231c2010e2125841f604719|file:///Users/matytan/.config/nvim/coc-settings.json|209|3|^v|jsonc
+	//"golang": {                                             
+	//  "command": "gopls",                                   
+	//  "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"], 
+	//  "filetypes": ["go"],                                  
+	//  "initializationOptions": {                            
+	//    "usePlaceholders": true                             
+	//  }                                                     
+	//},                                                      
+e5be096b6400497b426b2ddbb80c968d|file:///Users/matytan/.config/nvim/coc-settings.json|209|3|^v|jsonc
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+d9075a648ad81dcff0c8f1ef59fe59d4|file:///Users/matytan/.config/nvim/coc-settings.json|197|2|V|jsonc
+		{
+	  "go.goplsOptions": {
+aa0131c9bcec5f1b986d5a47490ad17a|file:///Users/matytan/.config/nvim/coc-settings.json|197|1|V|jsonc
+	  "go.goplsOptions": {
+	    "completeUnimported": true
+	  }
+529d726485fca2c6b1b8e900b6ff0cfb|file:///Users/matytan/.config/nvim/init.vim|1024|1|V|vim
+	autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
+3ab430be714c8afcceb37bf9a6d1439d|file:///Users/matytan/test.go|1|4|V|go
+	func main(){
+51a5cbd712c9af3c647a11f76bbc0973|file:///Users/matytan/test.go|1|3|V|go
+		fm.
+e9e3d8b072fb5bea690ddf5da53dda13|file:///Users/matytan/.config/zsh/env.zsh|8|1|V|zsh
+	export PATH=$PATH:$HOME/.gem/ruby/2.6.0
+3a8536dab441d1d3fe90e66bbe552f82|file:///Users/matytan/.config/zsh/env.zsh|8|13|v|zsh
+	$PATH:$HOME/.gem/ruby/2.6.0
+1857e99c02dffa67199c5362aff33970|file:///Users/matytan/.config/zsh/env.zsh|8|12|V|zsh
+	export PATH=
+785ca879e6db6174f248f623b500ce7f|file:///Users/matytan/t.go|2|10|V|go
+		fmt.Print
+ffc35e4ddd9026e4c86fcfa08f1ac467|file:///Users/matytan/t.go|2|1|V|go
+		fmt.Pri
+5f7888821d1d6882e2c97b5c32b79266|file:///Users/matytan/.config/nvim/coc-settings.json|197|2|^v|jsonc
+	//
+	//
+	//
+f88ed05b080a47e51c4532443649196d|file:///Users/matytan/.config/nvim/README_cn.md|39|10|v|markdown
+	端键盘快捷键](#4-终端键盘快捷键)
+	* [插件快捷键 (截图/动图已经准备好！)](#插件快捷键-截图动图已经准备好)
+		- [自动补全](#自动补全)
+			+ [COC (自动补全)](#coc-自动补全)
+			+ [Ul
+3294bfeb8924d9e762533bf5d9679156|file:///Users/matytan/.config/nvim/README_cn.md|39|19|V|markdown
+		- [4 终端键盘快捷键](#4-终端键盘快捷键)
+	* [插件快捷键 (截图/动图已经准备好！)](#插件快捷键-截图动图已经准备好)
+7908276db8d29ae7297407744128fc3a|file:///Users/matytan/.config/nvim/README_cn.md|190|1|v|markdown
+	|------------|------------------|
+6bfc6a2b51d713b93b4378ab37167cfb|file:///Users/matytan/.config/nvim/init.vim|111|14|v|vim
+	> <C-\><C-N>
+304a547ab18fee44076d74df79467344|file:///Users/matytan/.config/nvim/init.vim|111|1|v|vim
+	tnoremap <C-N>
+396882a6e858abbec11c770034eec8f4|file:///Users/matytan/.gdbinit|1|1|V|gdb
+	set startup-with-shell off
+0f68101772bd5397ef8eb1b632798652|file:///Users/matytan/blog/test.go|3|14|v|go
+	Wait
+a7afeca05ea2e4069f36cb85317a4378|file:///Users/matytan/blog/test.go|3|13|V|go
+		var wg sync.
+df6c6ae1c84a20425c087caa120b784f|file:///Users/matytan/.config/nvim/init.vim|147|12|v|vim
+	(fafr)
+e38e536047ecb517282e130e98983033|file:///Users/matytan/.config/nvim/init.vim|1035|1|^v|vim
+	"
+	"
+	"
+99a205ca124b815efce58e011a4063c5|file:///Users/matytan/.config/nvim/coc-settings.json|197|1|v|jsonc
+		"go/
+dc389bc5f0a0e2048c143dd514c1cb1c|file:///Users/matytan/.config/nvim/coc-settings.json|197|2|v|jsonc
+	"go/
+17c2ea052ca5689a52626e31cf6b908a|file:///Users/matytan/.config/nvim/README_cn.md|432|1|V|markdown
+	| `,b`   | **粗体**文字     |
+	| `,s`   | ~~被划去~~的文字 |
+5636db1f8b9babf8883115b2c22fdb20|file:///Users/matytan/.config/nvim/README_cn.md|317|1|V|markdown
+		string
+	
+48e7bdbd97d1ad92e5839aba1a32ed70|file:///Users/matytan/.config/nvim/init.vim|507|34|v|vim
+	ysw' to wrap the word with '' or type cs'` to change 'word' to `word`
+	Plug 'gcmt/wildfire.vim' " in Visual mode, type k' to select all text in '', or type k) k] k} kp
+	Plug 'junegunn/vim-after-object' " da= to delete what's after =
+	Plug '
+51c0f9090b742928ce682ec9e7d8d1bd|file:///Users/matytan/.config/nvim/coc-settings.json|110|1|V|jsonc
+		"explorer.keyMappings.global": {
+			"k": "nodePrev",
+			"j": "nodeNext",
+			"h": "toggleSelection",
+			"<tab>": "actionMenu",
+			"gl": "expandRecursive",
+			"gh": "collapseRecursive",
+			"i": ["wait", "expandable?", "expand", "open"],
+			"<cr>": ["wait", "expandable?", "cd", "open"],
+			"I": "open:vsplit",
+			"o": ["wait", "expanded?", "collapse", "expand"],
+			"O": "open:tab",
+			"n": "collapse",
+			"l": "gotoParent",
+			"yp": "copyFilepath",
+			"yn": "copyFilename",
+			"yy": "copyFile",
+			"dd": "cutFile",
+			"pp": "pasteFile",
+			"dD": "deleteForever",
+			"a": "addFile",
+			"M": "addDirectory",
+			"cw": "rename",
+			".": "toggleHidden",
+			"zh": "toggleHidden",
+			"R": "refresh",
+			"?": "help",
+			"q": "quit",
+			"X": "systemExecute",
+			"gd": "listDrive",
+			"f": "search",
+			"F": "searchRecursive",
+			"B": "gotoSource:file",
+			"b": "gotoSource:buffer",
+			"[[": "sourcePrev",
+			"]]": "sourceNext",
+			"[d": "diagnosticPrev",
+			"]d": "diagnosticNext",
+			"[c": "gitPrev",
+			"]c": "gitNext",
+			"<<": "gitStage",
+			">>": "gitUnstage"
+		},
+48a2546c50d12e87c8ec800705d43778|file:///Users/matytan/.config/ranger/rc.conf|370|15|V|conf
+	map gfd cd ~/prog/dwm/
+c6c9aee593f96129d66672649bffc7a6|file:///Users/matytan/.config/ranger/rc.conf|370|21|V|conf
+	map gfs cd ~/prog/st/
+74aaa08f1ee3da59aa97f17f984d08cf|file:///Users/matytan/.config/ranger/rc.conf|383|1|V|conf
+	map gG cd ~/go/src
+f79cd76b16e526d536ec5f9e3a3dbe9d|file:///Users/matytan/.config/ranger/rc.conf|379|13|v|conf
+	OneDrive
+bff518ee688be32fe6a869f19c2be819|file:///Users/matytan/go/src/mysqltest/database/somesql.sql|1|1|V|sql
+	explain select * 
+	from InvestOrder
+	where expireTime>=1640700002 AND expireTime<=1640800000
+	order by id
+	limit 20000,20;
+2a88575f19b65b061ebcf4cc32832d73|file:///Users/matytan/go/src/mysqltest/database/somesql.sql|7|1|V|sql
+	explain select * 
+	from InvestOrder_test
+	where expireTime>=1640700002 AND expireTime<=1640800000
+	order by id
+	limit 20000,20;
+9d6b32dd28407354f5c555075aa7ac68|file:///Users/matytan/go/src/mysqltest/database/somesql.sql|21|1|V|sql
+	explain select * 
+	from InvestOrder
+	where expireTime>=1640700002 AND expireTime<=1640800000
+	order by expireTime
+	limit 20000,20;
+903fa36a309b464f8fcd79213c101dd8|file:///Users/matytan/go/src/mysqltest/database/somesql.sql|27|1|V|sql
+	explain select * 
+	from InvestOrder_test
+	where expireTime>=1640700002 AND expireTime<=1640800000
+	order by expireTime
+	limit 20000,20;
+2ea6e0d46a10e514575f9a09678add2f|file:///Users/matytan/go/src/mysqltest/database/order.go|20|56|v|go
+	expireTime_index
+673eb027e9c056f57140322807351dd5|file:///Users/matytan/go/src/mysqltest/database/order.go|15|63|v|go
+	unique
+2e9d8504b07d0bdf4887f27c070cbbb6|file:///Users/matytan/go/src/mysqltest/database/order.go|14|57|v|go
+	autoIncrement
+44114fd344c6eada581e75c26fc0d55b|file:///Users/matytan/go/src/mysqltest/database/order.go|14|57|v|go
+	not 
+37a6259cc0c1dae299a7866489dff0bd|file:///Users/matytan/go/src/mysqltest/database/order.go|14|57|v|go
+	null
+5e0276ef8ae59ebb9aae19348ad173d5|file:///Users/matytan/go/src/mysqltest/database/order.go|14|45|v|go
+	PRIMARY_KEY
+015ae83b2ff36bcbcfb7eed6ce14b42a|file:///Users/matytan/go/src/mysqltest/database/order.go|15|53|v|go
+	id_index
+87cde45a84edd3881a193c367465dd02|file:///Users/matytan/.config/nvim/init.vim|111|16|v|vim
+	<C-\><C-K>
+6b10ff427b61fe6f86dbcac21923983a|file:///Users/matytan/.config/nvim/init.vim|111|1|v|vim
+	tnoremap <C-K> <C-\><C-K>
+189f75f7f091dd1867f884bb012d0f74|file:///Users/matytan/.config/nvim/init.vim|566|6|v|vim
+	plug#end
+68fc6261c25c66a7a6fbbb5b34c40711|file:///Users/matytan/go/src/mysqltest/database/order.go|14|56|v|go
+	AUTO_INCREMENT
+b326b5062b2f0e69046810717534cb09|file:///Users/matytan/go/src/mysqltest/database/order.go|14|56|v|go
+	true
+29d1af362ab973271770de185604cae2|file:///Users/matytan/go/src/mysqltest/database/order.go|14|45|v|go
+	PrimaryKey
+6a992d5529f459a44fee58c733255e86|file:///Users/matytan/go/src/mysqltest/database/order.go|15|42|v|go
+	index
+b988295c268025b49dfb3df26171ddc3|file:///Users/matytan/go/src/mysqltest/database/order.go|20|73|v|go
+	priority
