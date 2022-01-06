@@ -11,7 +11,7 @@
 			{
 				"key": "sideBar",
 				"visible": false,
-				"width": 127
+				"width": 219
 			},
 			{
 				"key": "noteList",
@@ -29,7 +29,7 @@
 			{
 				"key": "editor",
 				"visible": true,
-				"width": 732
+				"width": 698
 			},
 			{
 				"key": "plugin-view-joplin-plugin-knowledge-graph-graph",
@@ -42,32 +42,44 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor"
+		"editor",
+		"viewer"
 	],
 	"sync.target": 3,
-	"theme": 5,
+	"theme": 2,
 	"editor.codeView": true,
 	"dateFormat": "YYYY-MM-DD",
 	"themeAutoDetect": true,
 	"preferredLightTheme": 2,
 	"preferredDarkTheme": 5,
-	"markdown.plugin.insert": true,
+	"markdown.plugin.insert": false,
 	"editor.keyboardMode": "vim",
 	"notes.sortOrder.reverse": false,
 	"editor": "\"/Applications/Visual Studio Code.app\"",
 	"notes.sortOrder.field": "title",
-	"newTodoFocus": "body",
+	"newTodoFocus": "title",
 	"markdown.plugin.emoji": true,
 	"markdown.plugin.multitable": true,
 	"showTrayIcon": true,
 	"startMinimized": true,
-	"style.editor.fontSize": 13,
+	"style.editor.fontSize": 12,
 	"autoUpdate.includePreReleases": true,
 	"revisionService.ttlDays": 90,
 	"markdown.plugin.audioPlayer": false,
 	"markdown.plugin.videoPlayer": false,
 	"windowContentZoomFactor": 100,
 	"clipperServer.autoStart": true,
-	"markdown.plugin.linkify": false,
-	"markdown.plugin.toc": false
+	"markdown.plugin.linkify": true,
+	"markdown.plugin.toc": true,
+	"markdown.plugin.fountain": true,
+	"markdown.plugin.sub": true,
+	"markdown.plugin.sup": true,
+	"markdown.plugin.deflist": true,
+	"markdown.plugin.abbr": true,
+	"markdown.plugin.katex": true,
+	"markdown.plugin.mermaid": true,
+	"markdown.plugin.pdfViewer": true,
+	"markdown.plugin.mark": true,
+	"markdown.plugin.footnote": true,
+	"style.editor.fontFamily": ""
 }

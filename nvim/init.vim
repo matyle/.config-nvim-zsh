@@ -295,7 +295,7 @@ nnoremap \t :tabe<CR>:-tabmove<CR>:term sh -c 'st'<CR><C-\><C-N>:q<CR>
 " Opening a terminal window
 noremap <LEADER>/ :set splitbelow<CR>:split<CR>:res +10<CR>:term<CR>
 
-" Press space twice to jump to the next '<++>' and edit it
+" Press space twice to jump to the next '' and edit it
 noremap <LEADER><LEADER> <Esc>/<++><CR>:nohlsearch<CR>c4l
 
 " Spelling Check with <space>sc
@@ -385,8 +385,12 @@ call plug#begin('$HOME/.config/nvim/plugged')
 
 " Plug 'LoricAndre/fzterm.nvim'
 
-" Testing my own plugin
-" Plug 'theniceboy/vim-calc'
+Plug 'majutsushi/tagbar'
+
+" im-select
+if !has('gui_running')
+    Plug 'brglng/vim-im-select'
+endif
 
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter'
@@ -622,10 +626,11 @@ let g:gitgutter_sign_removed_first_line = '▔'
 let g:gitgutter_sign_modified_removed = '▒'
 " autocmd BufWritePost * GitGutter
 nnoremap <LEADER>gf :GitGutterFold<CR>
-nnoremap gh :GitGutterPreviewHunk<CR>
+nnoremap <LEADER>gh :GitGutterPreviewHunk<CR>
 nnoremap <LEADER>g- :GitGutterPrevHunk<CR>
 nnoremap <LEADER>g= :GitGutterNextHunk<CR>
-
+"im-select
+let g:im_select_default = 'com.apple.keylayout.ABC'
 
 " ===
 " === coc.nvim
@@ -970,7 +975,7 @@ let maplocalleader=' '
 " ===
 " === vim-calendar
 " ===
-"noremap \c :Calendar -position=here<CR>
+noremap \c :Calendar -position=here<CR>
 noremap \\ :Calendar -view=clock -position=here<CR>
 let g:calendar_google_calendar = 1
 let g:calendar_google_task = 1
@@ -1028,9 +1033,9 @@ let g:go_fmt_command = "goimports"
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
-"autocmd FileType go nmap gtj :CocCommand go.tags.add json<cr>
-"autocmd FileType go nmap gty :CocCommand go.tags.add yaml<cr>
-"autocmd FileType go nmap gtx :CocCommand go.tags.clear<cr>
+autocmd FileType go nmap gtj :CocCommand go.tags.add json<cr>
+autocmd FileType go nmap gty :CocCommand go.tags.add yaml<cr>
+autocmd FileType go nmap gtx :CocCommand go.tags.clear<cr>
 
 " ===
 " === OmniSharp
@@ -1214,11 +1219,6 @@ let g:rnvimr_draw_border = 0
 highlight link RnvimrNormal CursorLine
 nnoremap <silent> R :RnvimrToggle<CR><C-\><C-n>:RnvimrResize 0<CR>
 let g:rnvimr_action = {
-            \ '<C-t>': 'NvimEdit tabedit',
-            \ '<C-x>': 'NvimEdit split',
-            \ '<C-v>': 'NvimEdit vsplit',
-            \ 'gw': 'JumpNvimCwd',
-            \ 'yw': 'EmitRangerCwd'
             \ }
 let g:rnvimr_layout = { 'relative': 'editor',
             \ 'width': &columns,
